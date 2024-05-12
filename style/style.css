@@ -1,0 +1,477 @@
+#Home {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.501),
+      rgba(0, 0, 0, 0.501)
+    ),
+    url(../imgs/bg.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#Home .content h5 {
+  font-size: 4rem;
+  font-weight: 500;
+}
+#Home .content h1 {
+  font-weight: 100;
+  font-size: 4rem;
+}
+#Home .content h1::after {
+  animation: typing 10s infinite;
+  content: ' |';
+  font-weight: 500;
+}
+
+@keyframes typing {
+  0% {
+    content: '|';
+  }
+  1.6% {
+    content: 'D|';
+  }
+  3.2% {
+    content: 'De|';
+  }
+  4.8% {
+    content: 'Dev|';
+  }
+  6.4% {
+    content: 'Deve|';
+  }
+  8% {
+    content: 'Devel|';
+  }
+  9.6% {
+    content: 'Develo|';
+  }
+  11.2% {
+    content: 'Develop|';
+  }
+  12.8% {
+    content: 'Develope|';
+  }
+  14.4% {
+    content: 'Developer|';
+  }
+  16% {
+    content: 'Develope|';
+  }
+  17.6% {
+    content: 'Develop|';
+  }
+  19.2% {
+    content: 'Develo|';
+  }
+  20.8% {
+    content: 'Devel|';
+  }
+  22.4% {
+    content: 'Deve|';
+  }
+  24% {
+    content: 'Dev|';
+  }
+  25.6% {
+    content: 'De|';
+  }
+  27.2% {
+    content: '|';
+  }
+  28.8% {
+    content: '|';
+  }
+  30.4% {
+    content: '|';
+  }
+  32% {
+    content: 'D|';
+  }
+  33.6% {
+    content: 'De|';
+  }
+  35.2% {
+    content: 'Des|';
+  }
+  36.8% {
+    content: 'Desi|';
+  }
+  38.4% {
+    content: 'Desig|';
+  }
+  40% {
+    content: 'Design|';
+  }
+  41.6% {
+    content: 'Designe|';
+  }
+  43.2% {
+    content: 'Designer|';
+  }
+  44.8% {
+    content: 'Desige|';
+  }
+  46.4% {
+    content: 'Desig|';
+  }
+  48% {
+    content: 'Desi|';
+  }
+  49.6% {
+    content: 'Des|';
+  }
+  51.2% {
+    content: 'De|';
+  }
+  52.8% {
+    content: 'D|';
+  }
+  54.4% {
+    content: '|';
+  }
+  56% {
+    content: '|';
+  }
+  57.6% {
+    content: '|';
+  }
+  59.2% {
+    content: 'L|';
+  }
+  60.8% {
+    content: 'La|';
+  }
+  62.4% {
+    content: 'Lar|';
+  }
+  64% {
+    content: 'Larr|';
+  }
+  65.6% {
+    content: 'Larry|';
+  }
+  67.2% {
+    content: 'Larry D|';
+  }
+  68.8% {
+    content: 'Larry Da|';
+  }
+  70.4% {
+    content: 'Larry Dan|';
+  }
+  72% {
+    content: 'Larry Dani|';
+  }
+  73.6% {
+    content: 'Larry Danie|';
+  }
+  75.2% {
+    content: 'Larry Daniel|';
+  }
+  76.8% {
+    content: 'Larry Daniels|';
+  }
+  78.4% {
+    content: 'Larry Daniel|';
+  }
+  80% {
+    content: 'Larry Danie|';
+  }
+  81.6% {
+    content: 'Larry Dani|';
+  }
+  83.2% {
+    content: 'Larry Dan|';
+  }
+  84.8% {
+    content: 'Larry Da|';
+  }
+  86.4% {
+    content: 'Larry D|';
+  }
+  88% {
+    content: 'Larr|';
+  }
+  89.6% {
+    content: 'Lar|';
+  }
+  91.2% {
+    content: 'La|';
+  }
+  92.8% {
+    content: 'L|';
+  }
+  94.4% {
+    content: '|';
+  }
+  96% {
+    content: '|';
+  }
+  97.6% {
+    content: '|';
+  }
+  99.2% {
+    content: '|';
+  }
+  100% {
+    content: '|';
+  }
+}
+
+#Home i {
+  width: 30px;
+  height: 30px;
+  background-color: black;
+  border-radius: 50%;
+  cursor: pointer;
+}
+#About p {
+  line-height: 1.6;
+  font-size: 15px;
+  color: #748182;
+}
+#About span {
+  color: #748182;
+}
+.progress-bar {
+  background-color: black;
+}
+#About .buttons {
+  margin-top: 30px;
+}
+#About .buttons .contact {
+  border: 1px solid black;
+  padding: 7px 30px;
+  transition: 0.5s;
+}
+#About .buttons .contact:hover {
+  background-color: black;
+  color: white;
+}
+#About .buttons .download {
+  color: white;
+  padding: 7px 30px;
+  background-color: black;
+  transition: 0.5s;
+}
+#About .buttons .download:hover {
+  border: 1px solid black;
+  color: black;
+  background-color: white;
+}
+
+#About .image::after {
+  content: ' ';
+  background-image: url(../imgs/dots.png);
+  background-repeat: repeat;
+  background-position: center center;
+  width: 80%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 5%;
+  z-index: -1;
+}
+#Services {
+  background-color: #f4f4f4;
+}
+.item .icon {
+  width: 70px;
+  height: 70px;
+  background-color: #f4f4f4;
+  border-radius: 50%;
+  transition: 0.5s;
+}
+#Services .item:hover .icon {
+  background-color: black;
+  color: white;
+}
+
+.title {
+  width: fit-content;
+  z-index: 4;
+}
+
+.title::after {
+  content: ' ';
+  background-image: url(../imgs/dots.png);
+  background-repeat: repeat;
+  background-position: center center;
+  width: 100%;
+  height: 60%;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  z-index: -1;
+}
+
+.hover {
+  opacity: 0;
+  transition: 0.5s;
+}
+.hover:hover {
+  opacity: 0.9;
+}
+
+#Works .inner i {
+  width: 25px;
+  height: 25px;
+  transition: 0.5s;
+  background-color: black;
+}
+#Works .inner i:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.nav-pills .nav-link {
+  color: black;
+  font-weight: 700;
+  position: relative;
+  width: fit-content;
+  overflow: hidden;
+}
+.nav-pills .nav-link.active {
+  color: black;
+  background-color: transparent;
+  width: fit-content;
+}
+.nav-pills .nav-link::after {
+  content: '';
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  position: absolute;
+  left: -100%;
+  top: 80%;
+}
+.nav-pills .nav-link.active::after {
+  left: 0;
+}
+
+#Clients {
+  background-color: #f4f4f4;
+}
+
+#Clients .image {
+  width: 10%;
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #d6d6d6;
+}
+.carousel-indicators .active {
+  background-color: rgba(3, 84, 3, 0.688);
+}
+.carousel-indicators .hover {
+  background-color: rgba(3, 84, 3, 0.688);
+}
+
+#Team {
+  background-color: #f4f4f4;
+}
+
+
+#Team .item {
+  background-color: rgba(52, 52, 52, 0.8);
+}
+
+.flip {
+  width: 96%;
+  height: 96%;
+  position: absolute;
+  top: 2%;
+  left: 2%;
+  opacity: 0;
+  transform: rotateY(-90deg);
+  cursor: pointer;
+  transition: all 1s;
+  scale: 0;
+}
+
+#Team i {
+  width: 35px;
+  height: 35px;
+  background-color: black;
+  color: white;
+}
+#Team i:hover {
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+}
+
+#Team .item:hover .flip {
+  transform: rotateY(-360deg);
+  opacity: 0.9;
+  scale: 1;
+}
+#Team .item .image:hover img {
+  scale: 1.2;
+}
+
+#Team .item .image img {
+  transition: all 0.5s;
+}
+#Contact .icon i {
+  width: 60px;
+  height: 60px;
+  background-color: #f4f4f4;
+  transition: all 0.5s;
+}
+#Contact .conatct:hover i {
+  color: white;
+  background-color: black;
+}
+form .name {
+  background-color: #f4f4f4;
+  border: none;
+  width: 50%;
+}
+form .name.first {
+  margin-right: 10px;
+}
+textarea {
+  background-color: #f4f4f4;
+  border: none;
+}
+#Contact .btn {
+  background-color: black;
+  color: white;
+}
+#Contact .btn:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+
+
+footer {
+  color: #748182;
+  height: 10%;
+}
+nav a {
+  position: relative;
+  overflow: hidden;
+}
+nav ul a::after {
+  content: ' ';
+  width: 60px;
+  height: 2px;
+  background-color: black;
+  position: absolute;
+  left: -115%;
+  top: 30;
+  transition: 0.5s;
+}
+nav ul a.active::after {
+  left: 0;
+}
